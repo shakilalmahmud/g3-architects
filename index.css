@@ -11,6 +11,13 @@ header{
     height: 1100px;
     margin: 0;
 }
+.robot{
+    position:absolute;
+    bottom: 465px;
+    left: -100px;
+    transform: translate(250px);
+    transition: transform 5s linear 5s  ;
+}
 main{
     width: 100%;
     display: flex;
@@ -26,6 +33,10 @@ main{
 }
 .nav-bar a{
     text-decoration: none;
+}
+.nav-bar a:hover{
+    border: 2px solid orange;
+    border-radius: 5px;
 }
 nav {
     display: flex;
@@ -246,6 +257,9 @@ nav {
     align-items: center;
     justify-content: center;
 }
+.key-point:hover{
+     background-color: #f1a34abe;
+}
 .key-point h6{
     font-family: 'sofia sans';
     font-style: normal;
@@ -263,6 +277,9 @@ nav {
     color: #424242;
     margin-top: 0px;
     margin-bottom: 10px;
+}
+.key-points a{
+    text-decoration: none;
 }
 .key-points{
     margin-left: 7%;
@@ -290,12 +307,18 @@ nav {
     display: flex;
     align-items: center;
 }
-.media h3{
+
+.media-link h3{
         width: 50px;
         height: 50px;
         font-family: 'sofia sans';
         font-size:30px;
         font-weight: 700;
+        color: black;
+}
+.media-link a{
+    text-decoration: none;
+    color: #131313;
 }
 .media-link{
     display: flex;
@@ -442,8 +465,14 @@ footer h6{
          width: 85%;
 
       }
+      .robot, .ball{
+        display: none;
+      }
 }
 @media screen and (max-width: 992px) and (min-width: 577px) {
+    .robot, .ball{
+        display: none;
+    }
     .features{
         display: flex;
         flex-direction: column-reverse;
