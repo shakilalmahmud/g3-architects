@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+}
+header{
+    background-color:  rgba(255, 144, 14, 0.1);
+    background-image: url('images/banner.png');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: bottom center;
+    width: 100%;
+    height: 1100px;
+    margin: 0;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    
+}
+.nav-bar a{
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-left: 16.2857%;
+    margin-right: 17.142857%;
+    align-items: center;
+  
+}
+.company-name{
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+.nav-bar{
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color:  #424242;
+}
+.company-bio{
+    width: 50%;
+    height: 225px;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.company-bio h1{
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.description{
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.explore-more{
+    width: 100%;
+    height: 100%;
+    background-color: #FF900E;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+}
+.explore-more a{
+    text-decoration: none;
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: aliceblue;
+}
+.button{
+    width: 180px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team{
+    /* width: 600px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+.team img{
+    width: 288px; 
+    height: 288px;
+}
+.features{
+    margin-top: 85px;
+    margin-left:7% ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+.content{
+    margin-right: 4%;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    align-items: flex-start;
+}
+.content h2{
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+    border: none;
+}
+.content .span1{
+      color: #131313;
+}
+.content .span2{
+     color: #FF900E;
+}
+.content .description{
+    text-align: left;
+}
+.content .button{
+     margin-left: 0px;
+}
+.poster{
+    margin-left: 7%;
+    margin-top: 100px;
+    display: flex;
+    gap: 14%;
+}
+.poster-text{
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.poster-text div{
+    padding: 0 5px 5px 5px;
+    border-bottom: 2px solid lightslategray;
+    border-radius: 5px;
+    box-shadow: #131313;
+}
+.poster-text .description{
+     text-align: left;
+}
+ h2{
+    width: 400px;
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    border-left: 5px  solid #FF900E;
+    border-radius: 5px;
+}
+.poster-text h3{
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;    
+}
+.poster-image{
+    width: 40%;
+    height: 700px;
+}
+.poster-image img{
+    width:100%; 
+    height: 100%;
+}
+.experience-button {
+      width: 100%;
+      height: 100%;
+      font-family: 'sofia sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      text-align: center;
+      padding: 30px 20px 0 20px;
+      line-height: 50px;
+      color: aliceblue;
+      background-color: #FF900E;
+      border-radius: 5px;
+      position: relative;
+      left: -5%;
+      bottom: 50px;
+}
+.experience-button span{
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    
+}
+.ex-button{
+    width: 350px;
+    height: 150px;
+}
+.some-facts h2{
+    border: none;
+}
+.some-facts p{
+    text-align: left;
+}
+.some-facts{
+    position: relative;
+    top: 200px;
+    margin-left: 7%;
+    width: 540px;
+    margin-bottom: 250px;
+}
+.key-point{
+    width: 241px;
+    height: 241px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.key-point h6{
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.key-point h5{
+    font-family: 'sofia sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.key-points{
+    margin-left: 7%;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.sponsored{
+    width: 540px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+}
+.sponsored h2{
+    border: none;
+}
+.media{
+    display: flex;
+    align-items: center;
+}
+.media h3{
+        width: 50px;
+        height: 50px;
+        font-family: 'sofia sans';
+        font-size:30px;
+        font-weight: 700;
+}
+.media-link{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer{
+    width: 700px;
+    height: 15px;
+    margin: 120px auto 150px auto;
+}
+footer h6{
+     width: 100%;
+     height: 100%;
+     font-family: 'Work Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 20px;
+     columns: #424242;
+     background-color: #FFF4E7;
+     text-align: center;
+     padding: 26px 63px 35px 63px;
+     
+}
+@media screen and (max-width: 576px) {
+    body{
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .company-bio{
+        width: 50%;
+        height: 225px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .company-bio span{
+           position: relative;
+           right: 47px;
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+    .features{
+        margin-left:7% ;
+        display: flex;
+        flex-direction: column-reverse;
+        gap:24px;
+    }
+    .poster{
+        margin-right: 10px;
+        margin-left: 7%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 200px;
+    }
+    .poster-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .poster-image{
+        width: 100%;
+        height: 700px;
+    }
+    .some-facts{
+        /* position: relative;
+        top: 200px; */
+        margin-left: 7%;
+        margin-right: 7%;
+        width: 85%;
+        margin-bottom: 250px;
+    }
+    .key-points{
+        margin-left: 7%;
+        margin-right: 10px;
+        margin-bottom: 150px;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 24px;
+        justify-content: center;
+        
+    }
+    .sponsored{
+        width: 85%;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 140px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .media-link{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 60px;
+        row-gap: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer{
+        width: 85%;
+        margin: 120px 10px ;
+    }
+    footer h6{
+         width: 85% ;
+         text-align: center;
+         padding-bottom: 60px;
+    }
+     .button{
+        width: 180px;
+        height: 64px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+      .ex-button{
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 7%;
+      }
+      .content{
+         width: 85%;
+
+      }
+}
+@media screen and (max-width: 992px) and (min-width: 577px) {
+    .features{
+        display: flex;
+        flex-direction: column-reverse;
+        gap:24px;
+        justify-content: center;
+        align-items: center;
+    }
+    .poster{
+        margin-right: 10px;
+        margin-left: 7%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+        align-items: center;
+        justify-items: center;
+    }
+    .poster-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .poster-image{
+        width: 70%;
+        height: 700px;
+    }
+    .key-points{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+        justify-content: center;
+        
+    }
+    footer{
+        width: 85%;
+        margin: 120px auto ;
+    }
+    footer h6{
+        width: 85% ;
+        text-align: center;
+        padding-bottom: 60px;
+   }
+    
+}
