@@ -15,8 +15,20 @@ header{
     position:absolute;
     bottom: 465px;
     left: -100px;
-    transform: translate(250px);
-    transition: transform 5s linear 5s   ;
+    /* transform: translate(250px); */
+    animation: identifier 5s linear ;
+    
+}
+@keyframes identifier {
+    from{
+        bottom: 465px;
+        left: -100px;
+    }
+    to{
+        bottom: 465px;
+        left: 150px;
+    }
+    
 }
 main{
     width: 100%;
