@@ -15,12 +15,12 @@ header{
     position:absolute;
     bottom: 465px;
     left: -100px;
-    transform: translate(250px);
-    transition: trasform 5s linear 1s;
-    /* animation: identifier 5s linear 1s  ; */
+    /* transform: translate(250px);
+    transition: trasform 5s linear 1s; */
+    animation: identifier 5s linear 1s alternate forwards;
     
 }
-/* @keyframes identifier {
+@keyframes identifier {
     from{
         bottom: 465px;
         left: -100px;
@@ -29,8 +29,7 @@ header{
         bottom: 465px;
         left: 150px;
     }
-     
-} */
+}
 main{
     width: 100%;
     display: flex;
